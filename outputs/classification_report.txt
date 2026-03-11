@@ -1,0 +1,18 @@
+Case Study 2 — Tomato Disease Detection (3-Class, Balanced 1000/class)
+============================================================
+Loss     : WeightedFocalLoss (gamma=2.0, alpha=[1.0, 1.0, 1.0])
+Dataset  : 1000 images/class (balanced)
+Classes  : Tomato_Bacterial_spot, Tomato_Early_blight, Tomato_Late_blight
+
+Test Accuracy : 96.44%
+Test Loss     : 0.0224
+
+                       precision    recall  f1-score   support
+
+Tomato_Bacterial_spot       0.95      0.98      0.97       150
+  Tomato_Early_blight       0.98      0.94      0.96       150
+   Tomato_Late_blight       0.96      0.97      0.97       150
+
+             accuracy                           0.96       450
+            macro avg       0.96      0.96      0.96       450
+         weighted avg       0.96      0.96      0.96       450
